@@ -9,7 +9,7 @@ import {
   MainHeading,
   DescriptionText,
   TextLink,
-} from '../styles/Main.style';
+} from './Auth.style';
 
 const SignIn = ({navigation}: {navigation: any}) => {
   const [email, setEmail] = useState<string>('');

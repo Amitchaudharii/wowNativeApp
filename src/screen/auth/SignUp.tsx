@@ -11,7 +11,7 @@ import {
   TextLink,
   SecondaryButton,
   SecondaryButtonText,
-} from '../styles/Main.style';
+} from './Auth.style';
 
 const SignUp = ({navigation}: {navigation: any}) => {
   const [formData, setFormData] = useState({
